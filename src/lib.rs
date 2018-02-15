@@ -5,8 +5,8 @@ pub use self::class::{MemberType, ClassMember, Class};
 pub use self::modifier::Modifier;
 
 #[derive(Debug, Clone, PartialEq, Eq)]
-pub enum Declaration<'a> {
-    Class(Class<'a>),
+pub enum Declaration {
+    Class(Class),
 }
 
 
